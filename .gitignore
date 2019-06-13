@@ -1,0 +1,26 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+/.idea
+/.vscode
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.env
+public/vendor/
+
+# Hostinger stuff
+.bash_history
+.cache/
+.cagefs/
+.cl.selector/
+.config/
+.gitconfig
+.local/
+.ssh/
+public_html/
+.DS_Store
