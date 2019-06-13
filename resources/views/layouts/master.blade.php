@@ -46,7 +46,7 @@
     <link href="/ico/favicon.png" rel="shortcut icon">
 
     {{-- CSS FILES --}}
-    <link href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css" rel="stylesheet">
+    <link href="https://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" integrity="sha256-al7Uu0uyKADF89cFejXL3Yu0lobY3xGahFISKqe0C4A="
         crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.carousel.min.css"
@@ -91,7 +91,7 @@
     @yield('content')
     @include('layouts.footer')
 
-    <script type='text/javascript' src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type='text/javascript' src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
     <script type='text/javascript' src="js/owl.carousel.js"></script>
