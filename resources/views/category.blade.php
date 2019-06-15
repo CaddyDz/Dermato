@@ -47,7 +47,7 @@
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="content-box">
                     <div class="thumb">
-                        <img src="{{ $service->image }}" alt="Image">
+                        <img src="{{ asset("storage/$service->image") }}" alt="Image">
                     </div>
                     <div class="icon">
                         <img src="images/icon6.png" alt="Image">
