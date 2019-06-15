@@ -9,7 +9,7 @@
             </div>
             @if($category->image)
                 <div class="col-md-6 col-sm-6 col-xs-12">
-                    <img src="/{{ $category->image }}" alt="Image" class="margin-bottom">
+                    <img src="{{ asset("storage/$category->image") }}" alt="Image" class="margin-bottom">
                 </div>
             @endif
         </div>

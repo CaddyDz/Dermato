@@ -6,7 +6,7 @@
                 <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span>
                 <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
                 <a class="navbar-brand" href="/">
-                  <img src="/{{ setting('site.logo') }}" alt="Image" width="90" height="90">
+                  <img src="{{ asset('storage/' . setting('site.logo')) }}" alt="Image" width="90" height="90">
                 </a>
             </div>
             <!-- end navbar-header -->
