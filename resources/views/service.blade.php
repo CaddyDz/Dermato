@@ -37,11 +37,11 @@
                 <br><hr>
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     @if($service->image)
-                        <img src="{{ asset("storage/$service->image") }}" alt="Image" class="margin-bottom">
+                        <img src="{{ secure_asset("storage/$service->image") }}" alt="Image" class="margin-bottom">
                     @endif
                     @if($service->images)
                         @foreach(json_decode($service->images) as $image)
-                            <img src="{{ asset("storage/$image") }}" alt="Image" class="margin-bottom">
+                            <img src="{{ secure_asset("storage/$image") }}" alt="Image" class="margin-bottom">
                         @endforeach
                     @endif
                 </div>

@@ -21,7 +21,7 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-md-2 col-sm-12 col-xs-12"> <img src="{{ asset('storage/' . setting('site.logo')) }}" alt="Image" class="pull-left">
+            <div class="col-md-2 col-sm-12 col-xs-12"> <img src="{{ secure_asset('storage/' . setting('site.logo')) }}" alt="Image" class="pull-left">
                 <p class="copyright">Copyright © {{ date('Y') }}, {{ setting('site.title') }}</p>
             </div>
             <!-- end col-2 -->
