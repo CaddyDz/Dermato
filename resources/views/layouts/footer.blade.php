@@ -40,6 +40,7 @@
                     <li><a href="{{ url('/') }}">Accueil</a></li>
                     <li><a href="{{ url('/cabinet') }}">Cabinet</a></li>
                     <li><a href="{{ url('/contact') }}">Contacter Nous</a></li>
+                    <li><a href="{{ url('/admin/login') }}">Espace Admin</a></li>
                 </ul>
             </div>
             <!-- end col-2 -->

@@ -2,9 +2,8 @@
 
 namespace App;
 
-use Illuminate\Database\Eloquent\Model;
-use TCG\Voyager\Models\Category as BaseCategory;
 use App\Service;
+use TCG\Voyager\Models\Category as BaseCategory;
 
 class Category extends BaseCategory
 {

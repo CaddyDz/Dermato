@@ -2,16 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-use DemeterChain\C;
-use App\Category;
 use App\Service;
+use App\Category;
 
 class PagesController extends Controller
 {
-    public function getCategory($category)
+    public function getCategory(Category $category)
     {
-        $category = Category::where('slug', $category)->first();
         return view('category', compact('category'));
     }
 

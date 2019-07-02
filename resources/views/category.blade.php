@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <h1>{{ $category->name }}</h1>
+                <h1>{{ optional($category)->name }}</h1>
             </div>
             @if($category->image)
                 <div class="col-md-6 col-sm-6 col-xs-12">
